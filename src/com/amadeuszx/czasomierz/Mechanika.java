@@ -39,7 +39,7 @@ class Mechanika extends JFrame
 		try
 		{
 			play = ImageIO.read(getClass().getResource("/play.png"));
-			pausa = ImageIO.read(getClass().getResource("/pausa.png"));
+			pausa = ImageIO.read(getClass().getResource("/pauza.png"));
 			poczatek = ImageIO.read(getClass().getResource("/poczatek.png"));
 		}
 		catch (IOException e1)
